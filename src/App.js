@@ -11,12 +11,21 @@ import "./App.css";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
-import GithubProfileFinder from "./components/github-profile-finder";
+// import GithubProfileFinder from "./components/github-profile-finder";
+// import SearchAutoComplete from "./components/search-autocomplete-with-api";
+// import TicTacToe from "./components/tic-tac-toe";
+// import FeatureFlagGlobalState from "./components/feature-flag/context";
+// import FeatureFlag from "./components/feature-flag";
+// import UseFetchHookTest from "./components/use-fetch/text";
+// import UseOnClickOutsideTest from "./components/use-outside-click/test";
+// import UseWindowResizeTest from "./components/use-window-resize/test"
+// import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom"
+import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 
 function App() {
   return (
     <div className="App">
-      {/* Accordian Component */}
+      {/* Accordian Component */} 
       {/* <Accordian/> */}
 
       {/* random color component */}
@@ -54,7 +63,33 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* Github Profile Finder */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+
+      {/* Search AutoComplete */}
+      {/* <SearchAutoComplete/> */}
+
+      {/* Tic Tac Toe */}
+      {/* <TicTacToe/> */}
+
+      {/* Feature Flag Implementation */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState> */}
+
+      {/* useFetch - Custom Hook */}
+      {/* <UseFetchHookTest/> */}
+
+      {/* Use Onclick Outside Hook */}
+      {/* <UseOnClickOutsideTest/> */}
+
+      {/* Use Window resize hook */}
+      {/* <UseWindowResizeTest/> */}
+
+      {/* Scroll To Top and Bottom */}
+      {/* <ScrollToTopAndBottom/> */}
+
+      {/* Scroll to particular section */}
+      <ScrollToSection/>
 
     </div>
   );
